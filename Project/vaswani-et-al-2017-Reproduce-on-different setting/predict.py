@@ -1,5 +1,5 @@
 import argparse
-import torch
+import torch 
 import torch.nn as nn
 from transformer.transformer import Transformer
 from dataloader.constants import BOS_WORD, EOS_WORD
