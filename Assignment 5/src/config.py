@@ -11,5 +11,6 @@ batch_size = 32
 scheduler_gamma = 0.4
 scheduler_step_size = 100000
 
+
 # Hyperparameters for Double DQN agent
 update_target_network_frequency = 1000
