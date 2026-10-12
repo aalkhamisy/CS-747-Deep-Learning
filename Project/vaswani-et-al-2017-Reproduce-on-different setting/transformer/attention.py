@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-
+ 
 class ScaledDotProductAttention(nn.Module):
     def __init__(self, dropout=0.2) -> None:
         super().__init__()
