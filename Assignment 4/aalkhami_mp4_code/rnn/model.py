@@ -6,7 +6,7 @@ class RNN(nn.Module):
     def __init__(self, input_size, hidden_size, output_size, model_type="rnn", n_layers=1):
         super(RNN, self).__init__()
         """
-        Initialize the RNN model.
+        Initialize the RNN model. 
         
         You should create:
         - An Embedding object which will learn a mapping from tensors
