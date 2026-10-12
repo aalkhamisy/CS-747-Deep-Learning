@@ -18,7 +18,7 @@ class ReplayMemory(object):
         mini_batch = []
         if frame >= Memory_capacity:
             sample_range = Memory_capacity
-        else:
+        else: 
             sample_range = frame
 
         # history size
