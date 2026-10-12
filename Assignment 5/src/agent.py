@@ -12,6 +12,7 @@ from utils import find_max_lives, check_live, get_frame, get_init_state
 from config import *
 import os
 
+
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 class Agent():
